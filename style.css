@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  height: 70px;
+  background-color: #cecece;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  float: left;
+  height: 100%;
+  padding-top: 5px;
+}
+
+.logo > img{
+  width: 200px;
+}
+
+.menu{
+  float: right;
+  height: 100%;
+}
+.menu:hover{
+  color: red;
+}
+
+.menu > h1{
+  line-height: 70px;
+  cursor: pointer;
+}
