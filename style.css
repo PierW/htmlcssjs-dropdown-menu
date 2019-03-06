@@ -4,9 +4,19 @@
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 nav{
   height: 70px;
   background-color: #cecece;
+}
+
+i.fas.fa-arrow-circle-left{
+  margin-right: 50px;
+  vertical-align: middle;
 }
 
 .container{
@@ -34,7 +44,10 @@ nav{
 .menu{
   float: right;
   height: 100%;
+  width: 150px;
+  text-align: center;
 }
+
 .menu:hover{
   color: red;
 }
@@ -42,4 +55,24 @@ nav{
 .menu > h1{
   line-height: 70px;
   cursor: pointer;
+}
+
+.drop-container-i{
+  background-color: grey;
+  box-shadow: 10px 10px 20px lightgrey;
+  text-align: right;
+  border-radius: 5%;
+}
+
+.drop-element-i{
+  padding: 10px 5px;
+  transition: all .3s ease-in-out;
+}
+
+.drop-element-i:hover{
+  background-color: lightgrey;
+}
+
+.drop-element-i a:hover{
+  color: black;
 }
