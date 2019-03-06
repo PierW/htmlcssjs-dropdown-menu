@@ -62,17 +62,33 @@ i.fas.fa-arrow-circle-left{
   box-shadow: 10px 10px 20px lightgrey;
   text-align: right;
   border-radius: 5%;
+  display: none;
 }
 
-.drop-element-i{
+.drop-container-ii{
+  width: 100%;
+  position: absolute;
+  left: -150px;
+  background-color: grey;
+  text-align: right;
+  border-right: 1px dashed lightgrey;
+  border-radius: 5% 0 0 5%;
+  display: none;
+}
+
+.drop-element-i,
+.drop-element-ii{
   padding: 10px 5px;
   transition: all .3s ease-in-out;
+  position: relative;
 }
 
-.drop-element-i:hover{
+.drop-element-i:hover,
+.drop-element-ii:hover{
   background-color: lightgrey;
 }
 
-.drop-element-i a:hover{
+.drop-element-i a:hover,
+.drop-element-ii a:hover{
   color: black;
 }
