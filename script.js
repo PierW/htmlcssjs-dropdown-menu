@@ -1,5 +1,7 @@
 // Carico prima tutto il DOM html prima di lanciare il Js
 $(document).ready(init);
+// JAVASCRIPT
+// document.addEventListener("DOMContentLoaded", init);
 
 // Creo funzioni
 function showMenu() {
